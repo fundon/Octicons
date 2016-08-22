@@ -1,6 +1,6 @@
 # Octicons
 
-GitHub Octicons for Swift 3.0 on macOS 
+[GitHub Octicons](https://github.com/primer/octicons/) for Swift 3.0 on macOS
 
 ## Installation
 
@@ -24,10 +24,11 @@ textField.font = NSFont.icon(fontName: "octicons", size: 100)
 textField.textColor = NSColor.blue
 ```
 
-## Badges
+## License
 
-![](https://img.shields.io/badge/license-MIT-blue.svg)
-![](https://img.shields.io/badge/status-stable-green.svg)
+This project licensed under [MIT](http://opensource.org/licenses/mit-license.html).
+
+GitHub Octicons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL).
 
 ---
 
