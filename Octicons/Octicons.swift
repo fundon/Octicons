@@ -9,7 +9,14 @@
 import Cocoa
 
 class FontLoader: NSObject {
+
+    static var fonts = [String: Bool]()
+
     class func load(fontName: String, type: String = "ttf") {
+        if self.fonts[fontName] != nil {
+            return
+        }
+
         let bundle = Bundle(for: FontLoader.self)
         let filePath = bundle.path(forResource: fontName, ofType: type)
         let fontURL = URL(fileURLWithPath: filePath!)
@@ -27,20 +34,14 @@ class FontLoader: NSObject {
         } catch let error as NSError {
             print("Could not load \(error), \(error.userInfo)")
         }
+        self.fonts[fontName] = true
     }
 }
 
 
 public extension NSFont {
-
-    @nonobjc static var _icons = [String: Bool]()
-
     public static func icon(fontName: String, size: CGFloat) -> NSFont {
-        let exits = self._icons[fontName]
-        if exits == nil {
-            FontLoader.load(fontName: fontName)
-            self._icons[fontName] = true
-        }
+        FontLoader.load(fontName: fontName)
         return NSFont(name: fontName, size: size)!
     }
 }
