@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -153,19 +153,17 @@
 				TargetAttributes = {
 					C8DE53971D6ACD4B009549E5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = ZT7S22BS94;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C8DE53A01D6ACD4B009549E5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = ZT7S22BS94;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = C8DE53921D6ACD4B009549E5 /* Build configuration list for PBXProject "Octicons" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
