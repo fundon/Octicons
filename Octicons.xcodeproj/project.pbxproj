@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8DE53A71D6ACD4B009549E5 /* OcticonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE53A61D6ACD4B009549E5 /* OcticonsTests.swift */; };
+		C8DE53A91D6ACD4B009549E5 /* Octicons.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DE539B1D6ACD4B009549E5 /* Octicons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DE53B31D6AD035009549E5 /* Octicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE53B21D6AD035009549E5 /* Octicons.swift */; };
+		C8DE53B51D6AD088009549E5 /* Octicons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DE53981D6ACD4B009549E5 /* Octicons.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8DE53A31D6ACD4B009549E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8DE538F1D6ACD4B009549E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DE53971D6ACD4B009549E5;
+			remoteInfo = Octicons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8DE53981D6ACD4B009549E5 /* Octicons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Octicons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE539B1D6ACD4B009549E5 /* Octicons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Octicons.h; sourceTree = "<group>"; };
+		C8DE539C1D6ACD4B009549E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DE53A11D6ACD4B009549E5 /* OcticonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcticonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE53A61D6ACD4B009549E5 /* OcticonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcticonsTests.swift; sourceTree = "<group>"; };
+		C8DE53A81D6ACD4B009549E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DE53B21D6AD035009549E5 /* Octicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octicons.swift; sourceTree = "<group>"; };
+		C8DE53B41D6AD04B009549E5 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8DE53941D6ACD4B009549E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE53B51D6AD088009549E5 /* Octicons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE539E1D6ACD4B009549E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8DE538E1D6ACD4B009549E5 = {
+			isa = PBXGroup;
+			children = (
+				C8DE539A1D6ACD4B009549E5 /* Octicons */,
+				C8DE53A51D6ACD4B009549E5 /* OcticonsTests */,
+				C8DE53991D6ACD4B009549E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DE53991D6ACD4B009549E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE53981D6ACD4B009549E5 /* Octicons.framework */,
+				C8DE53A11D6ACD4B009549E5 /* OcticonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DE539A1D6ACD4B009549E5 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE539B1D6ACD4B009549E5 /* Octicons.h */,
+				C8DE53B41D6AD04B009549E5 /* octicons.ttf */,
+				C8DE53B21D6AD035009549E5 /* Octicons.swift */,
+				C8DE539C1D6ACD4B009549E5 /* Info.plist */,
+			);
+			path = Octicons;
+			sourceTree = "<group>";
+		};
+		C8DE53A51D6ACD4B009549E5 /* OcticonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE53A61D6ACD4B009549E5 /* OcticonsTests.swift */,
+				C8DE53A81D6ACD4B009549E5 /* Info.plist */,
+			);
+			path = OcticonsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8DE53951D6ACD4B009549E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE53A91D6ACD4B009549E5 /* Octicons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8DE53971D6ACD4B009549E5 /* Octicons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE53AC1D6ACD4B009549E5 /* Build configuration list for PBXNativeTarget "Octicons" */;
+			buildPhases = (
+				C8DE53931D6ACD4B009549E5 /* Sources */,
+				C8DE53941D6ACD4B009549E5 /* Frameworks */,
+				C8DE53951D6ACD4B009549E5 /* Headers */,
+				C8DE53961D6ACD4B009549E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octicons;
+			productName = Octicons;
+			productReference = C8DE53981D6ACD4B009549E5 /* Octicons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8DE53A01D6ACD4B009549E5 /* OcticonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE53AF1D6ACD4B009549E5 /* Build configuration list for PBXNativeTarget "OcticonsTests" */;
+			buildPhases = (
+				C8DE539D1D6ACD4B009549E5 /* Sources */,
+				C8DE539E1D6ACD4B009549E5 /* Frameworks */,
+				C8DE539F1D6ACD4B009549E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DE53A41D6ACD4B009549E5 /* PBXTargetDependency */,
+			);
+			name = OcticonsTests;
+			productName = OcticonsTests;
+			productReference = C8DE53A11D6ACD4B009549E5 /* OcticonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8DE538F1D6ACD4B009549E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Fangdun Cai";
+				TargetAttributes = {
+					C8DE53971D6ACD4B009549E5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZT7S22BS94;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					C8DE53A01D6ACD4B009549E5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZT7S22BS94;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C8DE53921D6ACD4B009549E5 /* Build configuration list for PBXProject "Octicons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8DE538E1D6ACD4B009549E5;
+			productRefGroup = C8DE53991D6ACD4B009549E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DE53971D6ACD4B009549E5 /* Octicons */,
+				C8DE53A01D6ACD4B009549E5 /* OcticonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8DE53961D6ACD4B009549E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE539F1D6ACD4B009549E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8DE53931D6ACD4B009549E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE53B31D6AD035009549E5 /* Octicons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE539D1D6ACD4B009549E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE53A71D6ACD4B009549E5 /* OcticonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8DE53A41D6ACD4B009549E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8DE53971D6ACD4B009549E5 /* Octicons */;
+			targetProxy = C8DE53A31D6ACD4B009549E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8DE53AA1D6ACD4B009549E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8DE53AB1D6ACD4B009549E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8DE53AD1D6ACD4B009549E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZT7S22BS94;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Octicons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fundon.Octicons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C8DE53AE1D6ACD4B009549E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZT7S22BS94;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Octicons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fundon.Octicons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C8DE53B01D6ACD4B009549E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZT7S22BS94;
+				INFOPLIST_FILE = OcticonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fundon.OcticonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C8DE53B11D6ACD4B009549E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZT7S22BS94;
+				INFOPLIST_FILE = OcticonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fundon.OcticonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8DE53921D6ACD4B009549E5 /* Build configuration list for PBXProject "Octicons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE53AA1D6ACD4B009549E5 /* Debug */,
+				C8DE53AB1D6ACD4B009549E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE53AC1D6ACD4B009549E5 /* Build configuration list for PBXNativeTarget "Octicons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE53AD1D6ACD4B009549E5 /* Debug */,
+				C8DE53AE1D6ACD4B009549E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8DE53AF1D6ACD4B009549E5 /* Build configuration list for PBXNativeTarget "OcticonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE53B01D6ACD4B009549E5 /* Debug */,
+				C8DE53B11D6ACD4B009549E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8DE538F1D6ACD4B009549E5 /* Project object */;
+}
