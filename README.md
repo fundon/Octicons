@@ -13,6 +13,8 @@ github "fundon/Octicons"
 ## Examples
 
 ```swift
+import Octicons
+
 // NSImage
 imageView.image = NSImage.icon(fontName: "octicons", code: "\u{f00a}", size: CGSize(width: 100, height: 100))
 

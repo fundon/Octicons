@@ -11,6 +11,7 @@
 		C8DE53A91D6ACD4B009549E5 /* Octicons.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DE539B1D6ACD4B009549E5 /* Octicons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8DE53B31D6AD035009549E5 /* Octicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE53B21D6AD035009549E5 /* Octicons.swift */; };
 		C8DE53B51D6AD088009549E5 /* Octicons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DE53981D6ACD4B009549E5 /* Octicons.framework */; };
+		C8DE53B71D6AE3FD009549E5 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8DE53B41D6AD04B009549E5 /* octicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DE53B71D6AE3FD009549E5 /* octicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
