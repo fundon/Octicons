@@ -50,7 +50,6 @@ public extension NSImage {
     public static func icon(fontName: String, code: String, size: CGSize, fontSize: CGFloat, textColor: NSColor, backgroundColor: NSColor = NSColor.clear) -> NSImage {
         // http://stackoverflow.com/questions/9829475/uiimage-vs-nsimage-drawing-to-an-off-screen-image-in-ios
         let image = NSImage(size: size)
-        print(size)
         image.lockFocus()
         let paragraph = NSMutableParagraphStyle()
         paragraph.alignment = .center
