@@ -8,7 +8,7 @@
 
 import Cocoa
 
-public enum Octicon: String {
+public enum Octicon: String, CustomStringConvertible {
 
     case alert = "\u{f02d}"
 
@@ -353,4 +353,8 @@ public enum Octicon: String {
     case x = "\u{f081}"
 
     case zap = "\u{26a1}"
+
+    public var description: String {
+        return self.rawValue
+    }
 }
